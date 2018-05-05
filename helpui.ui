@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpUI</class>
+ <widget class="QWidget" name="helpUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>495</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>使用帮助文档</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>401</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开:使用一个对话框进行选择
+关闭:关闭这张图片但是不关闭这个程序
+删除:删除这个图片,没有加入选择,点击就会被删除
+退出:关闭程序
+上一张:查看当前文件夹下的图片(已经被放到链表中)
+下一张:查看当前文件夹下的图片
+放大:放大当前的图片
+缩小:缩小当前的图片</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/op">
+        <file>11.png</file>
+        <file>close.jpg</file>
+        <file>closed.jpeg</file>
+        <file>delete.jpeg</file>
+        <file>delete2.jpeg</file>
+        <file>enage.jpeg</file>
+        <file>enage2.jpeg</file>
+        <file>next.jpeg</file>
+        <file>open.jpeg</file>
+        <file>pre.jpeg</file>
+        <file>small.jpeg</file>
+    </qresource>
+</RCC>

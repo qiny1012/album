@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>50</y>
+      <width>481</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;pre style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier';&quot;&gt;&lt;br/&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpen">
+    <property name="title">
+     <string>    文件    </string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionClose"/>
+    <addaction name="separator"/>
+    <addaction name="actionShanchu"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menu_caozuo">
+    <property name="title">
+     <string>     操作     </string>
+    </property>
+    <addaction name="actionXiayizhang"/>
+    <addaction name="actionShangyizhang"/>
+    <addaction name="separator"/>
+    <addaction name="actionFangda"/>
+    <addaction name="actionSuoxia"/>
+   </widget>
+   <widget class="QMenu" name="menuGuanyu">
+    <property name="title">
+     <string>     关于     </string>
+    </property>
+    <addaction name="actionBangzhu"/>
+    <addaction name="actionGuanyu"/>
+   </widget>
+   <addaction name="menuOpen"/>
+   <addaction name="menu_caozuo"/>
+   <addaction name="menuGuanyu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="toolbarOpen"/>
+   <addaction name="toolbarClose"/>
+   <addaction name="toolbarDelete"/>
+   <addaction name="toolbarQuit"/>
+   <addaction name="toolbarPre"/>
+   <addaction name="toolbarNext"/>
+   <addaction name="toolbarEnage"/>
+   <addaction name="toolbarSmall"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="toolTip">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>关闭</string>
+   </property>
+   <property name="toolTip">
+    <string>关闭</string>
+   </property>
+  </action>
+  <action name="actionShanchu">
+   <property name="text">
+    <string>删除</string>
+   </property>
+   <property name="toolTip">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionXiayizhang">
+   <property name="text">
+    <string>上一张</string>
+   </property>
+  </action>
+  <action name="actionShangyizhang">
+   <property name="text">
+    <string>下一张</string>
+   </property>
+  </action>
+  <action name="actionFangda">
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actionSuoxia">
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actionBangzhu">
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </action>
+  <action name="actionGuanyu">
+   <property name="text">
+    <string>版权</string>
+   </property>
+  </action>
+  <action name="toolbarOpen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/open.jpeg</normaloff>:/op/open.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="toolTip">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="toolbarClose">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/close.jpg</normaloff>:/op/close.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+   <property name="toolTip">
+    <string>关闭</string>
+   </property>
+  </action>
+  <action name="toolbarDelete">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/delete2.jpeg</normaloff>:/op/delete2.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+   <property name="toolTip">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="toolbarQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/closed.jpeg</normaloff>:/op/closed.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="toolbarPre">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/pre.jpeg</normaloff>:/op/pre.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>上一张</string>
+   </property>
+   <property name="toolTip">
+    <string>上一张</string>
+   </property>
+  </action>
+  <action name="toolbarNext">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/next.jpeg</normaloff>:/op/next.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>下一张</string>
+   </property>
+   <property name="toolTip">
+    <string>下一张</string>
+   </property>
+  </action>
+  <action name="toolbarEnage">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/enage2.jpeg</normaloff>:/op/enage2.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+   <property name="toolTip">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="toolbarSmall">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/op/small.jpeg</normaloff>:/op/small.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>缩小</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
